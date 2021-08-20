@@ -69,7 +69,7 @@ class NewYorkStyleCheesePizza : Pizza {
 **PizzaStore (Creator)**
 
 ```kotlin
-bstract class PizzaStore {
+abstract class PizzaStore {
 
     /** Factory method  */
     protected abstract fun createPizza(item: String): Pizza?
